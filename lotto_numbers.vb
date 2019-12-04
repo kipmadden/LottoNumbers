@@ -26,6 +26,7 @@ For i = 2 To 1001
         MsgBox ("Congratulations " & Player(1, 1) & " " & Player(1, 2) & " you won First Place!")
         'If there is a match write the array contents to the appropriate cells in the spreadsheet
     ElseIf Player(1, 3) = Second Then
+        'Repeat same procedure as above
         Range("F3:H3").Value = Player
     ElseIf Player(1, 3) = Third Then
         Range("F4:H4").Value = Player
